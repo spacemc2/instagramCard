@@ -1,0 +1,103 @@
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper{
+    width: 300px;
+    height: 380px;
+    margin: 0% auto;
+
+}
+
+#header{
+    background-color: white;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#header-icons-left{
+    width: 95%;
+    display: flex;
+}
+
+#icon-sole{
+    width: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#text-sole {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+#text-sole p{
+    width: 5%;
+    margin: 0%;
+    
+}
+
+#header-icons-right{
+    width: 5%;
+}
+
+#imgcontainer{
+    height: 62%;
+}
+#imgcontainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#description{
+    background-color: white;
+    height: 38%;
+}
+
+#reactions-icons{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    
+}
+
+#reactions-icons i{
+    height: 25%;
+}
+
+#reactions-icons-left{
+    width: 92%;
+}
+#reactions-icons-right{
+    width: 8%;
+}
+
+#reactions-desc{
+    height: 20%;
+
+}
+#reactions-desc p{
+    font-size: 10px;
+    padding: 10px;
+    margin: 0%;
+}
+#post-desc{
+    height: 50%;
+
+
+}
+#post-desc p{
+    padding: 0px 10px 0px 10px;
+    font-size: 10px;
+    margin: 0%;
+    
+}
